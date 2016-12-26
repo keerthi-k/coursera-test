@@ -1,0 +1,46 @@
+body{
+	font-size: 16px;
+}
+/*Header*/
+#header-nav{
+	background-color: gray;
+	border-radius: 0;
+	border: 0;
+}
+
+nav p{
+	color: black;
+}
+
+
+#header-nav button.navbar-toggle, #header-nav .icon-bar {
+	border: 1px solid black;
+}
+
+
+#nav-list li{
+	text-align: center;
+    list-style-position:inside;
+    border-bottom: 1px solid black;
+}
+
+#nav-list li a{
+	color: black;
+}
+
+#collapsable-nav.navbar-collapse.collapse.in{
+	background-color: white;
+}
+
+#chicken-menu, #beef-menu, #sushi-menu{
+	border: 1px solid gray;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	position: relative;
+	font-family: Helvetica;
+	color: black;
+	background-color:gray;
+	padding: 15px;
+}
